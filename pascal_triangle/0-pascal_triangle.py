@@ -1,4 +1,18 @@
+#!/usr/bin/python3
+"""
+Pascal's triangle
+"""
+
 def pascal_triangle(n):
+    """
+    Return a list of lists contained in a pascal's triangle of n
+
+    Arguments:
+    n -- The size of the last list
+
+    Returns:
+    List of lists in the triangle
+    """
     if n <= 0:
         return []
     
